@@ -27,7 +27,7 @@
   </owl-carousel-o>
 </section>
 
-<section class="featured__categories">
+<section class="featured__categories ">
 
   <h2 class="ms-2 mb-3">Featured Categories</h2>
   <owl-carousel-o [options]="featuredCategories">
@@ -35,7 +35,7 @@
       <ng-container *ngFor="let cate of categories">
           <ng-template carouselSlide>
               <div class="product">
-                  <div class="product__img">
+                  <div class="product__img ">
                       <img [src]="cate.image" [alt]="cate.name" [title]="cate.name">
                   </div>
                   <p>{{cate.name}}</p>
