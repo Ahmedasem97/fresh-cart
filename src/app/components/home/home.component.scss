@@ -1,0 +1,159 @@
+section {
+    margin: 50px 0;
+}
+
+
+.free__shipping img {
+    height: 500px !important;
+}
+
+.main__slider {
+    width: 50%;
+    top: 50%;
+    padding: 55px;
+    transform: translateY(-50%);
+}
+
+.main__slider span {
+    background-color: #ffc908;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: block;
+    width: fit-content;
+}
+
+.main__slider h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.main__slider p {
+    font-size: 18px;
+}
+
+.main__slider button {
+    background-color: black;
+}
+
+.main__slider button:hover {
+    background-color: rgb(62, 59, 59);
+}
+
+.main__slider button i {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.product {
+    border-color: #dfe2e1;
+    transition: border-color 0.5s;
+}
+
+.product:hover {
+    border-color: #0aad0a;
+}
+
+.product__img {
+    padding: 22px;
+    height: 90%;
+}
+
+.product p {
+    text-align: center;
+}
+
+.product {
+    height: 100%;
+}
+
+.popularProducts .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product__price {
+    font-size: 15px;
+}
+
+.price__rating {
+    margin-top: 15px;
+}
+
+
+
+.popularProducts button:first-child {
+    width: 73%;
+}
+
+
+.popularProducts button:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+button .fa-heart {
+    font-size: 20px;
+}
+
+
+
+
+
+
+// * ============media qeury============
+
+
+
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .main__slider {
+        width: 65%;
+    }
+
+    .main__slider {
+        padding: 55px 0 55px 55px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main__slider {
+        padding: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 465px) {
+    .add__cart {
+        flex-direction: column;
+    }
+
+    .popularProducts button:first-child {
+        width: 100%;
+    }
+
+    .popularProducts button:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .popularProducts .btn-main {
+        padding: 7px 0px;
+    }
+}
