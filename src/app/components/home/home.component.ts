@@ -148,11 +148,7 @@ export class HomeComponent implements OnInit {
         this._ToastrService.success(response.message);
         this._WishlistService.favNumber.next(response.data.length);
         this.wishListData = response.data;
-
-        const newProductData = this.products.filter((item: any) =>
-          this.wishListData.includes(item._id)
-        );
-        this.products = newProductData;
+        
       },
     });
   }
